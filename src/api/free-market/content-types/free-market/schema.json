@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "free_markets",
+  "info": {
+    "singularName": "free-market",
+    "pluralName": "free-markets",
+    "displayName": "FreeMarket"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "park": {
+      "type": "string"
+    },
+    "kwhDuration": {
+      "type": "string"
+    },
+    "yearlyYield": {
+      "type": "string"
+    },
+    "kwhAvailable": {
+      "type": "string"
+    }
+  }
+}

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * market service
+ * free-market service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::market.market');
+module.exports = createCoreService('api::free-market.free-market');

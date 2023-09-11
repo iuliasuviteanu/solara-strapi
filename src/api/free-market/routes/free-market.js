@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * market router
+ * free-market router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::market.market');
+module.exports = createCoreRouter('api::free-market.free-market');
